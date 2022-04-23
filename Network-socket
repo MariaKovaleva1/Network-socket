@@ -1,0 +1,13 @@
+<label for="">Input</label>
+<input type="text" name="" id="input_01" placeholder="Enter some text">
+
+<label for="">Output</label>
+<input type="text" name="" id="ouput_01">
+
+<script>
+    var input_01 = document.getElementById("input_01")
+    var output_01 = document.getElementById("output_01")
+    input_01.addEventListener('keyup',function(){
+        output_01.value = input_01.value
+    })
+</script>
